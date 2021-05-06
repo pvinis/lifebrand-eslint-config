@@ -1,6 +1,6 @@
 {
   "name": "@lifebrand/eslint-config-lifebrand",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shared eslint configuration files for LifeBrand projects",
   "author": "LifeBrand",
   "license": "MIT",
@@ -31,6 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.22.1",
     "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
