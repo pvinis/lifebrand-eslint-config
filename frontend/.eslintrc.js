@@ -12,6 +12,15 @@ module.exports = {
     "react/display-name": "off",
     "react/prop-types": 0, // "off" does not work
     "no-nested-ternary": "warn",
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-use-before-define": ["error", { "functions": true, "classes": true }],
+    "@typescript-eslint/no-explicit-any": "warn",
+    "class-methods-use-this": "off",
+    "import/no-extraneous-dependencies": "off",
   },
   settings: {
     react: {
