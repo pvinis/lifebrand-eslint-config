@@ -3,7 +3,7 @@ name: Assign Reviewers
 on:
   pull_request:
     branches:
-      - master
+      - develop
 
 jobs:
   assign_reviewer:
